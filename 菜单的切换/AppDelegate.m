@@ -7,16 +7,28 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
 @end
 
 @implementation AppDelegate
-
+@synthesize mNavCtrl;
+@synthesize mTouchPoint;
+@synthesize mTouchView;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    ViewController * rootView = [[ViewController alloc]init];
+    UINavigationController * navCtrl = [[UINavigationController alloc]initWithRootViewController:rootView];
+    self.mNavCtrl = navCtrl;
+    delegate = [[CLNavigationControllerDelegate alloc]init];
+    navCtrl.delegate = delegate;
+    self.window.rootViewController = self.mNavCtrl;
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 

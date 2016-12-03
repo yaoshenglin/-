@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CLNavigationControllerDelegate.h"
 
 @interface ViewController : UIViewController
+{
+    CLNavigationControllerDelegate * delegate;
+}
 
+@property (assign,nonatomic) CGPoint mPoint;
 
 @end
 

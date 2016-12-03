@@ -14,6 +14,18 @@
 		BF4101711AF89B7D003883AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4101701AF89B7D003883AB /* Images.xcassets */; };
 		BF4101741AF89B7D003883AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4101721AF89B7D003883AB /* LaunchScreen.xib */; };
 		BF4101801AF89B7D003883AB /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41017F1AF89B7D003883AB /* _____Tests.m */; };
+		BF41018B1AF89BAE003883AB /* CLNavigationControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF41018A1AF89BAE003883AB /* CLNavigationControllerDelegate.m */; };
+		BF41018D1AF89C3B003883AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF41018C1AF89C3B003883AB /* CoreGraphics.framework */; };
+		BF41018F1AF89C51003883AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF41018E1AF89C51003883AB /* Foundation.framework */; };
+		BF4101911AF89C5E003883AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF4101901AF89C5E003883AB /* UIKit.framework */; };
+		BF4101941AF89E5F003883AB /* CLAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4101931AF89E5F003883AB /* CLAnimator.m */; };
+		BF4101971AF8A30F003883AB /* CLPopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4101961AF8A30F003883AB /* CLPopAnimator.m */; };
+		BF41019A1AF8A884003883AB /* CLSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4101991AF8A884003883AB /* CLSecondViewController.m */; };
+		BF4101A01AF8B193003883AB /* ff_IconFacebook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41019C1AF8B193003883AB /* ff_IconFacebook@2x.png */; };
+		BF4101A11AF8B193003883AB /* ff_IconLocationService@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41019D1AF8B193003883AB /* ff_IconLocationService@2x.png */; };
+		BF4101A21AF8B193003883AB /* ff_IconShowFaceBook@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41019E1AF8B193003883AB /* ff_IconShowFaceBook@2x.png */; };
+		BF4101A31AF8B193003883AB /* ff_IconShowMobile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BF41019F1AF8B193003883AB /* ff_IconShowMobile@2x.png */; };
+		BF4101A61AF8B454003883AB /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4101A51AF8B454003883AB /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,23 @@
 		BF4101791AF89B7D003883AB /* 菜单的切换Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "菜单的切换Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF41017E1AF89B7D003883AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF41017F1AF89B7D003883AB /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		BF4101891AF89BAE003883AB /* CLNavigationControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLNavigationControllerDelegate.h; sourceTree = "<group>"; };
+		BF41018A1AF89BAE003883AB /* CLNavigationControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLNavigationControllerDelegate.m; sourceTree = "<group>"; };
+		BF41018C1AF89C3B003883AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BF41018E1AF89C51003883AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BF4101901AF89C5E003883AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BF4101921AF89E5F003883AB /* CLAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLAnimator.h; sourceTree = "<group>"; };
+		BF4101931AF89E5F003883AB /* CLAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLAnimator.m; sourceTree = "<group>"; };
+		BF4101951AF8A30F003883AB /* CLPopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPopAnimator.h; sourceTree = "<group>"; };
+		BF4101961AF8A30F003883AB /* CLPopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPopAnimator.m; sourceTree = "<group>"; };
+		BF4101981AF8A884003883AB /* CLSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLSecondViewController.h; sourceTree = "<group>"; };
+		BF4101991AF8A884003883AB /* CLSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLSecondViewController.m; sourceTree = "<group>"; };
+		BF41019C1AF8B193003883AB /* ff_IconFacebook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconFacebook@2x.png"; sourceTree = "<group>"; };
+		BF41019D1AF8B193003883AB /* ff_IconLocationService@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconLocationService@2x.png"; sourceTree = "<group>"; };
+		BF41019E1AF8B193003883AB /* ff_IconShowFaceBook@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconShowFaceBook@2x.png"; sourceTree = "<group>"; };
+		BF41019F1AF8B193003883AB /* ff_IconShowMobile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ff_IconShowMobile@2x.png"; sourceTree = "<group>"; };
+		BF4101A41AF8B454003883AB /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BF4101A51AF8B454003883AB /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4101911AF89C5E003883AB /* UIKit.framework in Frameworks */,
+				BF41018F1AF89C51003883AB /* Foundation.framework in Frameworks */,
+				BF41018D1AF89C3B003883AB /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +97,7 @@
 			children = (
 				BF4101621AF89B7D003883AB /* 菜单的切换 */,
 				BF41017C1AF89B7D003883AB /* 菜单的切换Tests */,
+				E2CDAB461AFB69DC00B71E13 /* Frameworks */,
 				BF4101611AF89B7D003883AB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +118,17 @@
 				BF4101681AF89B7D003883AB /* AppDelegate.m */,
 				BF41016A1AF89B7D003883AB /* ViewController.h */,
 				BF41016B1AF89B7D003883AB /* ViewController.m */,
-				BF41016D1AF89B7D003883AB /* Main.storyboard */,
-				BF4101701AF89B7D003883AB /* Images.xcassets */,
-				BF4101721AF89B7D003883AB /* LaunchScreen.xib */,
+				BF4101891AF89BAE003883AB /* CLNavigationControllerDelegate.h */,
+				BF41018A1AF89BAE003883AB /* CLNavigationControllerDelegate.m */,
+				BF4101981AF8A884003883AB /* CLSecondViewController.h */,
+				BF4101991AF8A884003883AB /* CLSecondViewController.m */,
+				BF4101A41AF8B454003883AB /* RootViewController.h */,
+				BF4101A51AF8B454003883AB /* RootViewController.m */,
+				BF4101921AF89E5F003883AB /* CLAnimator.h */,
+				BF4101931AF89E5F003883AB /* CLAnimator.m */,
+				BF4101951AF8A30F003883AB /* CLPopAnimator.h */,
+				BF4101961AF8A30F003883AB /* CLPopAnimator.m */,
+				BF41019B1AF8B186003883AB /* img */,
 				BF4101631AF89B7D003883AB /* Supporting Files */,
 			);
 			path = "菜单的切换";
@@ -96,6 +137,9 @@
 		BF4101631AF89B7D003883AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BF41016D1AF89B7D003883AB /* Main.storyboard */,
+				BF4101701AF89B7D003883AB /* Images.xcassets */,
+				BF4101721AF89B7D003883AB /* LaunchScreen.xib */,
 				BF4101641AF89B7D003883AB /* Info.plist */,
 				BF4101651AF89B7D003883AB /* main.m */,
 			);
@@ -117,6 +161,27 @@
 				BF41017E1AF89B7D003883AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF41019B1AF8B186003883AB /* img */ = {
+			isa = PBXGroup;
+			children = (
+				BF41019C1AF8B193003883AB /* ff_IconFacebook@2x.png */,
+				BF41019D1AF8B193003883AB /* ff_IconLocationService@2x.png */,
+				BF41019E1AF8B193003883AB /* ff_IconShowFaceBook@2x.png */,
+				BF41019F1AF8B193003883AB /* ff_IconShowMobile@2x.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		E2CDAB461AFB69DC00B71E13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF4101901AF89C5E003883AB /* UIKit.framework */,
+				BF41018E1AF89C51003883AB /* Foundation.framework */,
+				BF41018C1AF89C3B003883AB /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,8 +265,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF41016F1AF89B7D003883AB /* Main.storyboard in Resources */,
+				BF4101A01AF8B193003883AB /* ff_IconFacebook@2x.png in Resources */,
 				BF4101741AF89B7D003883AB /* LaunchScreen.xib in Resources */,
+				BF4101A31AF8B193003883AB /* ff_IconShowMobile@2x.png in Resources */,
 				BF4101711AF89B7D003883AB /* Images.xcassets in Resources */,
+				BF4101A21AF8B193003883AB /* ff_IconShowFaceBook@2x.png in Resources */,
+				BF4101A11AF8B193003883AB /* ff_IconLocationService@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,7 +289,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF41016C1AF89B7D003883AB /* ViewController.m in Sources */,
+				BF4101971AF8A30F003883AB /* CLPopAnimator.m in Sources */,
+				BF4101A61AF8B454003883AB /* RootViewController.m in Sources */,
+				BF4101941AF89E5F003883AB /* CLAnimator.m in Sources */,
+				BF41019A1AF8A884003883AB /* CLSecondViewController.m in Sources */,
 				BF4101691AF89B7D003883AB /* AppDelegate.m in Sources */,
+				BF41018B1AF89BAE003883AB /* CLNavigationControllerDelegate.m in Sources */,
 				BF4101661AF89B7D003883AB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -336,7 +410,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -347,7 +421,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "菜单的切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -357,7 +433,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = "菜单的切换/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -416,6 +494,7 @@
 				BF4101851AF89B7D003883AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF4101861AF89B7D003883AB /* Build configuration list for PBXNativeTarget "菜单的切换Tests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +503,7 @@
 				BF4101881AF89B7D003883AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

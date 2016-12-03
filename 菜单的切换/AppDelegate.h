@@ -7,11 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CLNavigationControllerDelegate.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+{
+    CLNavigationControllerDelegate * delegate;
+}
 @property (strong, nonatomic) UIWindow *window;
-
+@property (strong,nonatomic) UINavigationController * mNavCtrl;
+@property (assign,nonatomic) CGPoint mTouchPoint;
+@property (strong,nonatomic) UIView * mTouchView;
 
 @end
 
